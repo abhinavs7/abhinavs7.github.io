@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    text-align: left;
+    background-image: url("../images/redox_01.png");
+}
+header{
+    width:100% ;
+    height:12%;
+    clear:both;
+    background: #ffffff;
+    border-bottom: #cccccc solid 1px;
+    color: #777777;
+    overflow: hidden;
+}
+
+.topheader{
+    position: absolute;
+    top:0px;
+    left:12.5%;
+    height:9.5%;
+    width:27% ;
+    background: #4aaaa5;
+    border-bottom: #cccccc solid 1px;
+    overflow: hidden   
+
+}
+
+h1{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: white;
+}
+
+h1.top{
+    position: relative;
+    background: #4aaaa5;
+    color:#ffffff;
+    text-align: center;
+    margin-top:0px;
+    padding:5px 0 10px 0;
+    }
+nav{
+    background: #ffffff;
+    width:75%;
+    margin: 0 auto 0 auto ;
+    overflow: hidden   
+}
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    margin:auto;
+    color: #777777;
+}
+#container{
+    background: #ffffff;
+    width:75% ;
+    margin:20px auto 40px auto;
+    border-top: 1px solid #dddddd ;
+    border-bottom: 1px solid #dddddd ;
+    height:100%;
+    clear:both ;
+    padding-bottom: -20px;
+    padding: 0px 20px;
+    overflow: hidden;
+    height:90%;
+}
+
+img.portfolio{
+
+    padding:10px;
+    background: #ffffff;
+    
+
+}
+div.content {
+    
+    background:#4aaaa5;
+    width: 250px;
+    margin-left: 10px;
+    position: relative;
+    bottom:100px;
+
+
+}
+div.imgcontainer{
+float:left;
+background: #ffffff;
+height: 300px;
+
+}
+div h4{
+    background:#4aaaa5;
+    padding: 15px;
+    color: #f1f1f1;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+form{
+    background: white ;
+    overflow: auto;
+    margin-top: 2px
+}
+input.textbox{
+    background: white ;
+    width: 100%;
+    border: #cccccc solid 1px;
+    margin:10px 0px;
+    height: 25px;
+
+
+}
+button{
+    background:#4aaaa5 ;
+    width: 10%;
+    height: 25%;
+    color:white;
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    border: #4aaaa5 solid 1px;
+    margin:10px 0px 40px 0px
+
+    
+
+}
+textarea{
+    background: white ;
+    width: 100%;
+    border: #cccccc solid 1px;
+    margin:10px 0px 20px 0px
+
+
+}
+
+img.homepage{
+    float:left;
+    margin-right: 10px;
+
+}
+p.lastpara{
+    background: #ffffff;
+    overflow: auto;
+    position: relative;
+    margin:10px 0px 80px 0px
+
+}
+p{
+    background: #ffffff;
+    overflow: auto;
+    position: relative;
+    text-justify: distribute
+
+}
+hr {
+    border:0;
+    height:2px;
+    background-color: #dddddd;
+}
+ul {
+    margin: 0 -15px 0 auto;
+    padding: 20px 0px 20px 0px ;
+    overflow: hidden;
+    list-style-type: none;
+    background: #ffffff;
+    width: 75%;
+
+}
+li {
+    float: right;
+    overflow: hidden;
+    position: relative;
+   
+}
+nav li a:after {
+    content: " | ";
+    color: #cccccc;
+    background: #ffffff;
+    padding-left: 26px
+    }
+
+
+li a {
+    display:  inline;
+    color: #cccccc;
+    text-align: center;
+    padding: 20px 16px;
+    background: #ffffff;
+    text-decoration:none;
+    
+    
+}
+
+li a:last-child:after{
+
+content: none
+}
+footer{
+    background: #666666;
+    text-align: center;
+    padding:20px 0px 0px 0px;
+    color:#ffffff;
+    font-size:10px;
+    width:100%;
+    margin:0px 0 0 0;
+    height: 60px;
+    position: relative;
+    bottom: 0px;
+    clear: both;
+    overflow: hidden;
+}
+#footerdiv{
+    clear:both;
+    background:#4aaaa5 ;
+    height:10px;
+    width:100%;
+    position: relative;
+    float:bottom
+}
+
