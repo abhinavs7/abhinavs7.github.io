@@ -1,0 +1,521 @@
+* {
+    box-sizing: border-box;
+    text-align: left;
+    background-image: url("../images/redox_01.png");
+}
+header{
+    width:100% ;
+    height:12%;
+    clear:both;
+    background: #ffffff;
+    border-bottom: #cccccc solid 1px;
+    color: #777777;
+    overflow: hidden;
+}
+
+.topheader{
+    position: absolute;
+    top:0px;
+    left:12.5%;
+    height:11%;
+    width:27% ;
+    background: #4aaaa5;
+    border-bottom: #cccccc solid 1px;
+    overflow: hidden   
+
+} 
+
+h1{
+    color: #4aaaa5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    background: #ffffff;
+    padding:20px 0 10px 0;
+
+}
+
+div.navbar-nav{
+   position: absolute;
+   right: 0px;
+}
+
+#navbarNavAltMarkup{
+    background:#ffffff;
+    overflow: hidden;
+
+}
+#topnavigation{
+    background: #ffffff;
+  
+}
+h1.top{
+    position: absolute;
+    left: 3px;
+    background: #4aaaa5;
+    color:#ffffff;
+    text-align: center;
+    margin:0px 0px;
+    height: 70px;   
+    padding:10px 10px 10px 10px;
+    }
+nav{
+    background: #ffffff;
+    width:960px;
+    margin: 0 auto 0 auto ;
+    overflow: hidden;
+    height: 70px;   
+}
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    margin:auto;
+    color: #777777;
+}
+.container{
+    background: #ffffff;
+    width:960px ;
+    margin:20px auto 40px auto;
+    border-top: 1px solid #dddddd ;
+    border-bottom: 1px solid #dddddd ;
+    clear:both ;
+    padding-bottom: -20px;
+    padding: 0px 20px;
+    overflow: hidden;
+}
+.row{
+    background: #ffffff;
+}
+img.portfolio{
+
+    padding:10px;
+    background: #ffffff;
+    
+
+}
+div.content {
+    
+    background:#4aaaa5;
+    width: 250px;
+    margin-left: 10px;
+    position: relative;
+    bottom:100px;
+    overflow: hidden;
+    height: 60px;
+    opacity: .85;
+
+
+}
+div.imgcontainer{
+float:left;
+background: #ffffff;
+height: 300px;
+
+}
+div h4{
+    background:#4aaaa5;
+    padding: 15px;
+    color: #f1f1f1;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: relative;
+    bottom:100px;
+    height: 60px;
+
+}
+form{
+    background: white ;
+    overflow: auto;
+    margin-top: 5px
+}
+input{
+    background: white ;
+    margin-top: -5px;
+    
+}
+.btn{
+    background:#4aaaa5 ;
+    width:12%;
+    color:white;
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    border: #4aaaa5 solid 1px;
+    margin:10px 0px 40px 0px   
+
+}
+
+.btn:hover {
+    background: rgb(146, 240, 242);
+    border:rgb(146, 240, 242);
+  }
+textarea{
+    background: white ;
+    width: 100%;
+    border: #cccccc solid 1px;
+    margin:-5px 0px 20px 0px
+
+
+}
+
+img.homepage{
+    float:left;
+    margin-right: 10px;
+
+}
+p.lastpara{
+    background: #ffffff;
+    overflow: auto;
+    position: relative;
+    margin:10px 0px 80px 0px
+
+}
+p{
+    background: #ffffff;
+    overflow: auto;
+    text-justify: distribute
+
+}
+hr {
+    border:0;
+    height:2px;
+    background-color: #dddddd;
+}
+ul{
+    margin: 0 -15px 0 auto;
+    padding: 20px 0px 20px 0px ;
+    overflow: hidden;
+    list-style-type: none;
+    background: #ffffff;
+    width: 75%;
+    height: 80px;   
+
+}
+li {
+    float: right;
+    overflow: hidden;
+    position: relative;
+   
+} 
+a.navlink:after {
+    content: " | ";
+    color: #cccccc;
+    background: #ffffff;
+    padding-left: 10px;
+    overflow: hidden;
+    }
+
+
+
+    li a {
+        display:  inline;
+        color: #cccccc;
+        text-align: center;
+        padding: 20px 16px;
+        background: #ffffff;
+        text-decoration:none;
+        
+        
+    }
+    
+    li a:last-child:after{
+    
+    content: none
+    }
+
+    li a:hover{
+    color:gray;
+        }
+footer{
+    background: #666666;
+    text-align: center;
+    padding:30px 0px 0px 0px;
+    color:#ffffff;
+    font-size:10px;
+    width:100%;
+    margin:0px 0 0 0;
+    height: 70px;
+    position: relative;
+    bottom: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.footerlabel{
+    background: #666666;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    display: grid;
+    width:100px;
+}
+#footerdiv{
+    clear:both;
+    background:#4aaaa5 ;
+    height:10px;
+    width:100%;
+    position: relative;
+    float:bottom
+}
+.col-md-12{
+    background: #ffffff;
+}
+.col-md-5{
+    background: #ffffff;
+}
+.col-md-7{
+    background: #ffffff;
+}
+div.form-group{
+
+    background: #ffffff;
+}
+label{
+
+    background: #ffffff;
+}
+
+.fa {
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    text-decoration: solid;
+    border:1px whitesmoke solid;
+  }
+  
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  a.social {
+    display:  inline;
+    text-align: center;
+    text-decoration:none;
+    
+    
+}
+a.social:after{
+    content: none;
+}
+div.footersocial{
+    padding-bottom: 10px;
+    height:70px;
+    width:12%;
+    float:right;
+    background: #666666;
+    position: relative;
+    top:-35px;
+
+}
+p.footerpara{
+    background: #666666;
+    font-size: small;
+
+
+}
+div.paddedrowcontact{
+    height: 200px;
+    background-image: url("../images/redox_01.png");
+
+}
+div.paddedrowindex{
+    height: 50px;
+    background-image: url("../images/redox_01.png");
+
+}
+div.paddedrowport{
+    height: 50px;
+    background-image: url("../images/redox_01.png");
+
+}
+
+a.portfoliolinks{
+
+    position: absolute;
+    background: #4aaaa5;
+    color: #f1f1f1;
+    text-align: center;
+    font-weight: normal;
+    width: 250px;
+    margin: 2px auto 20px auto;
+    overflow: hidden;
+    opacity:1.0;
+
+}
+a.portfoliolinks:hover{
+    background: rgb(19, 191, 180);
+    color:black;
+}
+
+@media (max-width: 1213px) and (min-width: 768px) {
+    h1 {
+        font-size: x-large;
+        align-content: center;
+      }
+
+}
+@media (max-width: 980px) and (min-width: 768px) {
+    h1 {
+      font-size: x-large;
+    }
+    ul{
+        margin: 0 auto 0 auto;
+        padding: 20px 0px 20px 0px ;
+        overflow: hidden;
+        list-style-type: none;
+        background: #ffffff;
+        width: 75%;
+        height: 80px;   
+    
+    }
+    .container{
+        width:80%;
+    }
+    h1.top{
+        min-height: 70px;
+        font-size: x-large;
+        padding-top: 8px;
+
+    }
+    div.topheader{
+        width:20%;
+        min-height: 70px;
+        margin-left: 5px;
+
+    }
+}
+@media (max-width: 767px) and (min-width: 641px) {
+    h1 {
+      font-size: x-large;
+
+    }
+    ul{
+        text-align: center;
+        padding-left: -200px;
+    }
+    a.navlink{
+        position: inherit;       
+        }
+
+    .topnav{
+
+        width:100%;
+         }
+         .container{
+            width:70%;
+            min-width: 60%;
+            position: relative;
+            
+        }
+    button{
+        min-width: 100px; 
+        }
+        header{
+            width:100%;
+            overflow: hidden;
+
+        }
+        h1.top{
+            min-height: 70px;
+            font-size: medium;
+            padding-top: 20px;
+
+        }
+        div.topheader{
+            width:20%;
+            min-height: 70px;
+            margin-left: 20px;
+
+        }
+        ul{
+            margin-left: 80px;
+        }
+        
+
+}
+@media (max-width: 640px) and (min-width: 320px) {
+    h1 {
+      font-size: large;
+
+    }
+    .container{
+        width:60%;
+        min-width: 60%;
+        position: relative;
+        top: 130px;
+    }
+    button{
+        min-width: 80px; 
+        }
+
+        .topnav{
+        position: absolute;   
+        top:70px;
+        width:100%;
+         }
+         header{
+             width:100%;
+             background: #4aaaa5;
+
+         }
+         h1.top{
+             width:100%;
+             margin: 10px 20px 10px -10px;
+
+         }
+         div.topheader{
+             position: absolute;
+             left:0;
+            width:100%;
+            border-bottom: #4aaaa5 solid 1px;
+            overflow: hidden;
+            align-content: center;
+            height: 70px;   
+
+
+         }
+         .col-md-12{
+            margin: 10px auto 10px auto;
+
+             min-width:50%;
+         }
+         ul{
+            margin: 0 auto 0 auto;
+            padding-right: 13%;
+            overflow: hidden;
+            list-style-type: none;
+            background: #ffffff;
+            width: 75%;
+            height: 70px;   
+        
+        }
+
+}
