@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array Printing</title>
+  </head>
+  <body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script>
+
+    // Use this Array
+    var coolPeople = ["bruce lee", "arnold schwarzenegger", "chris the instructor", "will smith", "marie curie", "joan of arc"];
+
+    // Then use console.log to print each of the names listed inside.
+    // ..
+    console.log("-----No Loop-----");
+
+      console.log(coolPeople[0]);
+      console.log(coolPeople[1]);
+      console.log(coolPeople[2]);
+      console.log(coolPeople[3]);
+      console.log(coolPeople[4]);
+      console.log(coolPeople[5]);
+      console.log("-----With Loop-----");
+
+      for (var i=0;i < coolPeople.length; i++)
+      {
+        coolPeople[i] = coolPeople[i].toUpperCase();
+        console.log(coolPeople[i]);
+
+      }
+    // CODE GOES HERE
+
+
+    // ...
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Array Printing</title>
+  </head>
+  <body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script>
+
+    // Use this Array
+   
+
+    var myFarm = ["chickens","pigs","cows","horses","ostriches"]
+
+    var limit = prompt("How many numbers do you want to see?");
+      for(var i=1;i<=limit;i++){
+          for(j=1;j<=10;j++){
+              console.log(i+" X "+j+" = "+i*j);
+          }
+
+      }
+
+      for(i=0;i<myFarm.length;i++){
+
+          if(myFarm[i].charAt(0).toLowerCase()=='c' || myFarm[i].charAt(0).toLowerCase()=='o' ){
+              alert(myFarm[i]+" starts with c or an o!!");
+          }
+      }
+    // CODE GOES HERE
+
+
+    // ...
+
+    </script>
+
+  </body>
+</html>
