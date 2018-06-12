@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-12" id="trivia">
+                <img src="assets/images/Trivia1.jpg" alt="header">
+            </div>
+
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-12" id="start">
+                <h3>Click START to Play</h3>
+                <input type="button" class="btn btn-primary btn-lg" value="START" id="start-button">
+
+            </div>
+
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-12" id="message">
+            </div>
+
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-12" id="timer">
+            </div>
+
+        </div>
+        <div class="row justify-content-md-center" id="quiz">
+            <div class="col col-lg-12" id="question">
+                <div class="card" style="width: 40rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Question </h5>
+                        <p class="card-text"></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <input class="form-check-input answer-option" type="radio" name="optionRadios" id="optionRadio1" value="option1">
+                            <label class="form-check-label radio control-label" for="optionRadio1" id="optionLabel1">
+
+                            </label>
+                        </li>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <input class="form-check-input answer-option" type="radio" name="optionRadios" id="optionRadio2" value="option2">
+                                <label class="form-check-label radio control-label" for="optionRadio2" id="optionLabel2">
+
+                                </label>
+                            </li>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <input class="form-check-input answer-option" type="radio" name="optionRadios" id="optionRadio3" value="option3">
+                                    <label class="form-check-label radio control-label" for="optionRadio3" id="optionLabel3">
+
+                                    </label>
+                                </li>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input answer-option" type="radio" name="optionRadios" id="optionRadio4" value="option4">
+                                        <label class="form-check-label radio control-label" for="optionRadio4" id="optionLabel4">
+
+                                        </label>
+                                    </li>
+
+                                </ul>
+                                <div class="card-body">
+                                    <input class="card-link" type="button" id="next" value="Next">
+                                </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
